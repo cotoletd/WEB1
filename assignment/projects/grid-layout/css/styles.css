@@ -1,0 +1,61 @@
+body {
+    margin: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5%;
+    text-align: center;
+}
+
+.navbar,
+.footer {
+    grid-column: 1 / span 3;
+}
+
+.navbar,
+section,
+.footer {
+    min-height: 160px;
+}
+
+h1,
+h2,
+.footer p {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: bisque;
+}
+
+.section-one {
+    background-color: pink;
+}
+
+.section-two {
+    background-color: aqua;
+}
+
+.section-three {
+    background-color: greenyellow;
+}
+
+.footer {
+    background-color: plum;
+}
+
+@media screen and (max-width: 600px) {
+    .layout {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar,
+    .footer {
+        grid-column: 1;
+    }
+}

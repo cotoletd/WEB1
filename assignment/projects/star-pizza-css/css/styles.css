@@ -1,0 +1,99 @@
+/* Both Star Pizza pages use this stylesheet. */
+body {
+    margin: 20px;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #292929;
+}
+
+/* Each page has a different background color. */
+.home-page {
+    background-color: #fff5e6;
+}
+
+.menu-page {
+    background-color: #f0f5ea;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    color: #75401b;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #75401b;
+}
+
+h3 {
+    font-size: 19px;
+}
+
+/* Navigation links */
+.menu-links {
+    padding: 0;
+    list-style: none;
+}
+
+.menu-links li {
+    display: inline;
+}
+
+.menu-links a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0 8px 8px 0;
+    border: 1px solid #75401b;
+    background-color: #ffffff;
+    color: #75401b;
+    text-decoration: none;
+}
+
+.menu-links a:hover {
+    background-color: #f0dec9;
+}
+
+a {
+    color: #744018;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+section {
+    margin-bottom: 28px;
+}
+
+figure {
+    margin: 16px 0;
+}
+
+img {
+    border: 2px solid #ffffff;
+}
+
+figcaption {
+    font-size: 14px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+th, td {
+    border: 1px solid #777777;
+    padding: 6px;
+    text-align: left;
+}
+
+footer {
+    margin-top: 28px;
+    padding-top: 10px;
+    border-top: 1px solid #777777;
+    font-size: 14px;
+}
